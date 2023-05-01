@@ -123,7 +123,7 @@ app.get("/:customListName", function(req,res){
       res.render("list.ejs", {listTitle: foundList.name, newListItems: foundList.items})
     }
   }).catch(function (err) {
-    console.log(err);
+    console.log(err); 
   });
     
 });
